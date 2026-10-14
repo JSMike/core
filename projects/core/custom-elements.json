@@ -3237,9 +3237,9 @@
               "kind": "field",
               "name": "loadingState",
               "type": {
-                "text": "default | loading | success | error"
+                "text": "'default' | 'loading' | 'success' | 'error'"
               },
-              "description": "`default`: shows the content of the button\n- `loading`: disables the button and shows a spinner inside the button\n- `success`: disables the button and shows a check mark inside the button; auto-triggers to change back to DEFAULT state after 1000 ms\n- `error`: shows the content of the button (in the context of application, this state is usually entered from a LOADING state. the application should show appropriate error message)",
+              "description": "Changes the button content based on the value passed.\n\n- `default`: shows the content of the button\n- `loading`: disables the button and shows a spinner inside the button\n- `success`: disables the button and shows a check mark inside the button; auto-triggers to change back to DEFAULT state after 1000 ms\n- `error`: shows the content of the button (in the context of application, this state is usually entered from a LOADING state. the application should show appropriate error message)",
               "attribute": "loadingState"
             },
             {
@@ -3423,9 +3423,9 @@
             {
               "name": "loadingState",
               "type": {
-                "text": "default | loading | success | error"
+                "text": "'default' | 'loading' | 'success' | 'error'"
               },
-              "description": "`default`: shows the content of the button\n- `loading`: disables the button and shows a spinner inside the button\n- `success`: disables the button and shows a check mark inside the button; auto-triggers to change back to DEFAULT state after 1000 ms\n- `error`: shows the content of the button (in the context of application, this state is usually entered from a LOADING state. the application should show appropriate error message)",
+              "description": "Changes the button content based on the value passed.\n\n- `default`: shows the content of the button\n- `loading`: disables the button and shows a spinner inside the button\n- `success`: disables the button and shows a check mark inside the button; auto-triggers to change back to DEFAULT state after 1000 ms\n- `error`: shows the content of the button (in the context of application, this state is usually entered from a LOADING state. the application should show appropriate error message)",
               "fieldName": "loadingState"
             },
             {
@@ -3640,9 +3640,9 @@
               "kind": "field",
               "name": "loadingState",
               "type": {
-                "text": "default | loading | success | error"
+                "text": "'default' | 'loading' | 'success' | 'error'"
               },
-              "description": "`default`: shows the content of the button\n- `loading`: disables the button and shows a spinner inside the button\n- `success`: disables the button and shows a check mark inside the button; auto-triggers to change back to DEFAULT state after 1000 ms\n- `error`: shows the content of the button (in the context of application, this state is usually entered from a LOADING state. the application should show appropriate error message)",
+              "description": "Changes the button content based on the value passed.\n\n- `default`: shows the content of the button\n- `loading`: disables the button and shows a spinner inside the button\n- `success`: disables the button and shows a check mark inside the button; auto-triggers to change back to DEFAULT state after 1000 ms\n- `error`: shows the content of the button (in the context of application, this state is usually entered from a LOADING state. the application should show appropriate error message)",
               "attribute": "loadingState",
               "inheritedFrom": {
                 "name": "CdsButton",
@@ -3868,9 +3868,9 @@
             {
               "name": "loadingState",
               "type": {
-                "text": "default | loading | success | error"
+                "text": "'default' | 'loading' | 'success' | 'error'"
               },
-              "description": "`default`: shows the content of the button\n- `loading`: disables the button and shows a spinner inside the button\n- `success`: disables the button and shows a check mark inside the button; auto-triggers to change back to DEFAULT state after 1000 ms\n- `error`: shows the content of the button (in the context of application, this state is usually entered from a LOADING state. the application should show appropriate error message)",
+              "description": "Changes the button content based on the value passed.\n\n- `default`: shows the content of the button\n- `loading`: disables the button and shows a spinner inside the button\n- `success`: disables the button and shows a check mark inside the button; auto-triggers to change back to DEFAULT state after 1000 ms\n- `error`: shows the content of the button (in the context of application, this state is usually entered from a LOADING state. the application should show appropriate error message)",
               "fieldName": "loadingState",
               "inheritedFrom": {
                 "name": "CdsButton",

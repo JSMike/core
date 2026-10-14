@@ -52,6 +52,8 @@ const config = {
   ],
   package: {
     exports: [
+      // Custom Elements Manifest declarations refer to these published modules.
+      { input: './*.element.js', output: { types: './*.element.d.ts' } },
       { input: './styles/module.tokens.css', output: './styles/module.tokens.min.css' },
       {
         input: './icon/shapes/*',

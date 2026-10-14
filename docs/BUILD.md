@@ -56,6 +56,13 @@ The build process consists of the following five stages. Each stage can be ran i
 
 Other commands
 
+- `npm run test:manifest --workspace core-ws`: builds the Core library and checks that a consumer
+  can import each manifest-declared element type through the package export map. It also verifies
+  the button's `loadingState` literal union. Element implementation subpaths are exposed for
+  TypeScript only; use the existing component entry points for runtime imports. The consumer check
+  uses the isolated `typescript-cem-test` alias for stable NodeNext resolution, while library builds
+  keep TypeScript 4.5. It also runs as part of `public-api:check` in CI.
+
 - `npm run commit`: launches an interactive prompt to help format commit messages.
 
 - `npm run preview`: performs a dry-run of the release process and shows you what a release would look like (branch must exist remotely).

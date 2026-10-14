@@ -73,12 +73,12 @@ export class CdsButton extends CdsBaseButton {
 
   /**
    * Changes the button content based on the value passed.
-   * @type {default | loading | success | error}
    *
    * - `default`: shows the content of the button
    * - `loading`: disables the button and shows a spinner inside the button
    * - `success`: disables the button and shows a check mark inside the button; auto-triggers to change back to DEFAULT state after 1000 ms
    * - `error`: shows the content of the button (in the context of application, this state is usually entered from a LOADING state. the application should show appropriate error message)
+   * @type {'default' | 'loading' | 'success' | 'error'}
    */
   @property({ type: String })
   loadingState: keyof typeof ClrLoadingState = ClrLoadingState.default;
